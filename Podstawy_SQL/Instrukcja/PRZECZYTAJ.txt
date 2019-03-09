@@ -1,0 +1,14 @@
+Instrukcja instalacji bazy na serwerze IBM DB2
+==============================================
+
+1. Pobierz i zainstaluj PostgreSQL i pgAdmin III.
+2. Kliknij Databases prawym klawiszem myszy i wybierz New Database.
+3. Nadaj bazie nazwê tysql, pozostaw pozosta³e pola na wartoœciach domyœlnych.
+4. Nowa baza danych pojawi siê na liœcie, ale w pgAdmin III mo¿e mieæ czerwony znak X, co oznacza, ¿e narzêdzie nie jest z ni¹ po³¹czone. Kliknij j¹ dwukrotnie, aby siê po³¹czyæ.
+5. Kliknij bazê danych tysql i wybierz polecenie Execute arbitrary SQL (pomarañczowa lupa z tekstem SQL).
+6. Wyœwietli siê edytor zapytañ.
+7. Upewnij siê, ¿e lista rozwijana na górze po prawej zawiera nazwê tysql (jeœli nie, wybierz tê bazê danych).
+8. Skopiuj i wklej zawartoœæ pliku tworzenie (mog¹ pojawiæ siê ostrze¿enia dotycz¹ce kluczy).
+9. Kliknij przycisk Execute Query (zielona strza³ka), aby wykonaæ zapytania.
+10. Skopiuj i wklej zawartoœæ pliku wypelnianie.
+11. SprawdŸ dzia³anie bazy, wykonuj¹c zapytanie SELECT * FROM Klienci.
